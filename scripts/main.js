@@ -24,7 +24,7 @@ function setUserName()
         setUserName();
     } else {
         localStorage.setItem('name', myName);
-        myHeading.textContent = 'IG '+ storedName +'酷毙了!';
+        myHeading.textContent = '欢迎 '+ storedName +'！ 能看到这个页面简直酷毙了!';
     }
 }
 
